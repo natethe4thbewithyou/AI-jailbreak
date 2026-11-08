@@ -16,10 +16,10 @@ npm warn install-scripts Run `npm install-scripts ls` to review, or `npm install
 > clodex@0.2.0 build
 > tsc -b && vite build && tsc -p electron/tsconfig.json
 
-src/vite-env.d.ts:25:22 - error TS1109: Expression expected.
+src/vite-env.d.ts:24:32 - error TS1109: Expression expected.
 
-25 activeConversationId?: string;
-                        ~
+24 export {};activeConversationId?: string;
+                                  ~
 
 
 Found 1 error.
