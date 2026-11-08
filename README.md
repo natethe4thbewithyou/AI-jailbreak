@@ -1,5 +1,1 @@
-loadState: () => Promise<{
-  recentProjects?: string[];
-  conversations?: any[];
-  activeConversationId?: string;
-}>;
+activeConversationId?: string;
